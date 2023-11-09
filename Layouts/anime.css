@@ -1,0 +1,59 @@
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Theme%20-%20Compressed.css";
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Mod%20-%20Dark%20Mode%20Compressed.css";
+
+body { --banner: url(https://i.imgur.com/EeVkFnR.jpeg); }
+
+body { --character: none; }
+
+:root { --avatar: url(https://i.imgur.com/tyJQbQX.jpeg); }
+
+/* Avatar */
+
+/* All Anime */
+[data-query*='status":7'] { --avatar: url(https://i.imgur.com/tyJQbQX.jpeg); }
+/* Watching/Reading */
+[data-query*='status":1'] { --avatar: url(https://33.media.tumblr.com/4032377642a8f7eeaefb54b28ec4ee16/tumblr_ncsf7zLD021tk3dxfo1_500.gif); }
+/* Completed */
+[data-query*='status":2'] { --avatar: url(https://giffiles.alphacoders.com/145/14552.gif); }
+/* Onhold */
+[data-query*='status":3'] { --avatar: url(https://i.gifer.com/GAvM.gif); }
+/* Dropped */
+[data-query*='status":4'] { --avatar: url(https://steamuserimages-a.akamaihd.net/ugc/950731295329353962/95DE977C77C191A732A29A68AB72A19CD644F7F2/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false); }
+/* Planned */
+[data-query*='status":6'] { --avatar: url(https://64.media.tumblr.com/19d459eadeb64fcb84864d98f79c090d/bc98c6a0c91f3c61-aa/s540x810/e39f434868c14daba389332489dcffdd3539d355.gifv); }
+
+/* Banner */
+
+/* All Anime */
+[data-query*='status":7'] { --banner: url(https://i.imgur.com/EeVkFnR.jpeg); }
+/* Watching/Reading */
+[data-query*='status":1'] { --banner: url(https://i.imgur.com/h6nYWIh.png); }
+/* Completed */
+[data-query*='status":2'] { --banner: url(https://wallpaperaccess.com/full/33510.jpg); }
+/* Onhold */
+[data-query*='status":3'] { --banner: url(https://www.pingpong-anime.tv/img/story/img01.jpg); }
+/* Dropped */
+[data-query*='status":4'] { --banner: url(https://i.imgur.com/xIH7Al9.png); }
+/* Planned */
+[data-query*='status":6'] { --banner: url(https://i.imgur.com/z2nkciv.png); }
+
+/* Raise or lower this number to change how wide the box is. Make sure not to remove the "px" at the end. */
+            .data.tags {
+                width: 240px;
+            }
+
+            .data.tags div:not(:empty) {
+                padding: 2px 8px;
+                background: var(--btn-bg);
+                border-radius: 8.5px
+            }
+
+            .data.tags span {
+                display: inline;
+                font-size: 11px!important;
+                cursor: text
+            }
+
+.data.tags div:not(:empty){padding:2px 10px;background:var(--btn-bg);border-radius:12px}.data.tags span{display:inline;font-size:12px!important;cursor:text}.data.tags a:not(.edit){display:inline;padding:0;background:0 0;pointer-events:none}
+
+.status-menu .status-button{transition:color .3s ease}.status-menu .status-button.on:nth-of-type(1),.status-menu .status-button:nth-of-type(1):hover{color:var(--accent)!important}.status-menu .status-button.on:nth-of-type(2),.status-menu .status-button:nth-of-type(2):hover{color:var(--watching)!important}.status-menu .status-button.on:nth-of-type(3),.status-menu .status-button:nth-of-type(3):hover{color:var(--completed)!important}.status-menu .status-button.on:nth-of-type(4),.status-menu .status-button:nth-of-type(4):hover{color:var(--onhold)!important}.status-menu .status-button.on:nth-of-type(5),.status-menu .status-button:nth-of-type(5):hover{color:var(--dropped)!important}.status-menu .status-button.on:nth-of-type(6),.status-menu .status-button:nth-of-type(6):hover{color:var(--plantowatch)!important}
