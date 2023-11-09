@@ -37,23 +37,63 @@ body { --character: none; }
 /* Planned */
 [data-query*='status":6'] { --banner: url(https://i.imgur.com/jGyGp4m.jpeg); }
 
-/* Raise or lower this number to change how wide the box is. Make sure not to remove the "px" at the end. */
-            .data.tags {
-                width: 240px;
-            }
+.data.tags {
+    width: 240px;
+}
 
-            .data.tags div:not(:empty) {
-                padding: 2px 8px;
-                background: var(--btn-bg);
-                border-radius: 8.5px
-            }
+.data.tags div:not(:empty) {
+    padding: 2px 8px;
+    background: var(--btn-bg);
+    border-radius: 8.5px
+}
 
-            .data.tags span {
-                display: inline;
-                font-size: 11px!important;
-                cursor: text
-            }
+.data.tags span {
+    display: inline;
+    font-size: 11px!important;
+    cursor: text
+}
 
-.data.tags div:not(:empty){padding:2px 10px;background:var(--btn-bg);border-radius:12px}.data.tags span{display:inline;font-size:12px!important;cursor:text}.data.tags a:not(.edit){display:inline;padding:0;background:0 0;pointer-events:none}
+.data.tags div:not(:empty){
+    padding:2px 10px;
+    background:var(--btn-bg);
+    border-radius:12px
+}
+.data.tags span{
+    display:inline;
+    font-size:12px!important;
+    cursor:text
+}
+.data.tags a:not(.edit){
+    display:inline;
+    padding:0;
+    background:0 0;
+    pointer-events:none
+}
 
-.status-menu .status-button{transition:color .3s ease}.status-menu .status-button.on:nth-of-type(1),.status-menu .status-button:nth-of-type(1):hover{color:var(--accent)!important}.status-menu .status-button.on:nth-of-type(2),.status-menu .status-button:nth-of-type(2):hover{color:var(--watching)!important}.status-menu .status-button.on:nth-of-type(3),.status-menu .status-button:nth-of-type(3):hover{color:var(--completed)!important}.status-menu .status-button.on:nth-of-type(4),.status-menu .status-button:nth-of-type(4):hover{color:var(--onhold)!important}.status-menu .status-button.on:nth-of-type(5),.status-menu .status-button:nth-of-type(5):hover{color:var(--dropped)!important}.status-menu .status-button.on:nth-of-type(6),.status-menu .status-button:nth-of-type(6):hover{color:var(--plantowatch)!important}
+.status-menu .status-button{
+    transition:color .3s ease
+}
+
+.status-menu .status-button.on:nth-of-type(1),.status-menu .status-button:nth-of-type(1):hover{
+    color:var(--accent)!important
+}
+
+.status-menu .status-button.on:nth-of-type(2),.status-menu .status-button:nth-of-type(2):hover{
+    color:var(--watching)!important
+}
+
+.status-menu .status-button.on:nth-of-type(3),.status-menu .status-button:nth-of-type(3):hover{
+    color:var(--completed)!important
+}
+
+.status-menu .status-button.on:nth-of-type(4),.status-menu .status-button:nth-of-type(4):hover{
+    color:var(--onhold)!important
+}
+
+.status-menu .status-button.on:nth-of-type(5),.status-menu .status-button:nth-of-type(5):hover{
+    color:var(--dropped)!important
+}
+
+.status-menu .status-button.on:nth-of-type(6),.status-menu .status-button:nth-of-type(6):hover{
+    color:var(--plantowatch)!important
+}
