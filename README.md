@@ -1,5 +1,3 @@
-# 🎨 MyAnimeList-Theme
-
 <div id="top" align="center">
     <a href="https://github.com/Thomazrlima/MyAnimeList-Theme#readme">
         <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/MyAnimeList_Logo.png" width="100" height="100">
@@ -9,17 +7,30 @@
 </div>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Thomazrlima/MyAnimeList-Theme?color=2e51a1&labelColor=000000">
+  <img
+    src="https://img.shields.io/badge/Status-Em%20desenvolvimento-green?style=flat-square"
+    alt="Status"
+  />
+</p>
 
-  <a href="https://www.linkedin.com/in/Thomazrlima/">
-    <img alt="Made by" src="https://img.shields.io/static/v1?label=made%20by&message=Thomaz%20Lima&color=2e51a1&labelColor=000000)](https://www.linkedin.com/in/johnggli/">
-  </a>
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Thomazrlima/MyAnimeList-Theme?color=2e51a1&labelColor=000000">
-
-  <a href="https://github.com/Thomazrlima/MyAnimeList-Theme/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Thomazrlima/MyAnimeList-Theme?color=2e51a1&labelColor=000000)](https://github.com/Thomazrlima/MyAnimeList-Theme/commits/master">
-  </a>
+<p align="center">
+  <img
+    src="https://img.shields.io/github/repo-size/Thomazrlima/MyAnimeList-Theme?style=flat"
+    alt="Repository Size"
+  />
+  <img
+    src="https://img.shields.io/github/languages/count/Thomazrlima/MyAnimeList-Theme?style=flat&logo=python"
+    alt="Language Count"
+  />
+  <img
+    src="https://img.shields.io/github/commit-activity/t/Thomazrlima/MyAnimeList-Theme?style=flat&logo=github"
+    alt="Commit Activity"
+  />
+  <a href="LICENSE.md"
+    ><img
+      src="https://img.shields.io/github/license/Thomazrlima/MyAnimeList-Theme"
+      alt="License"
+  /></a>
 </p>
 
 ## 😶‍🌫️ Overview
